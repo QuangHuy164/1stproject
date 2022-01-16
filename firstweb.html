@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choux</title>
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+</head>
+<body>
+<style>
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 10px;
+    background:lightcoral;
+}
+
+.header {
+    padding: 100px;
+    background-image: url("https://i.pinimg.com/564x/29/42/bc/2942bc827b47b7ba04125aa72d2edd52.jpg");
+    text-align: center;
+    background-repeat:no-repeat;
+    font-family: sans-serif;
+    color: whitesmoke;
+    background-attachment:scroll;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color:blanchedalmond;
+    text-decoration: underline;
+}
+
+.leftcolumn {
+    float:left;
+    width: 75%;
+}
+.rightcolumn {
+    float: left;
+    width: 25%;
+    
+    padding-left: 20px;
+}
+.img {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.card {
+    background-color: wheat;
+    padding: 20px;
+    margin-top: 20px;
+  
+}
+.rows:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.information {
+    padding: 20px;
+    text-align: center;
+    background:cornflowerblue;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding:0;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .topnav a {
+        float: none;
+        width:100%;
+    }
+}
+</style>
+<div class="header">
+    <h1>Choux Bakery</h1>
+</div>
+
+<div class="topnav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Cakes</a>
+    <a href="#" style="float:right">Contact</a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <div class="clearfix">
+                <img src="https://i.pinimg.com/564x/b6/86/72/b686725314fd19d0db0bd9267c6ede5e.jpg" style="float: right; width: 300px; height: 350px;"></div>
+            <h2>List of Cakes</h2>
+            <li>Choux</li>
+            <li>Choux Pastry</li>
+            <li>Caramel</li>
+            <h5>November 18, 2019</h5>
+            <h1>Choux</h1>
+            <p>The butter is put inside the dough which is repeatedly folded and rolled out before baking. 
+               Choux pastry is just a 
+               <br><b><i>mixed together dough</b></i> that’s placed on a baking sheet in different form and baked.</p>
+            <p>Some bakers prefer <b><i>all purpose</b></i> or <b><i>bread flour</i></b> because the high protein 
+              content makes the choux pastry hold <br>their shape better. 
+              These flours also give choux pastry a thick and crisp shell.</p>
+            <p>The word choux in French means <b><i>cabbage</i></b>, and choux pastry gets
+              its name from the fact that the little balls<br> of choux paste 
+              used to make cream puffs resemble little cabbages.</p>
+        </div>
+    </div>
+</div>
+<div class="rightcolumn">
+    <div class="card">
+        <h2>About Me</h2>
+        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/258886218_1618178255190390_4607712765362574680_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=aee45a&_nc_ohc=ijy16hm9Y4AAX-u6uXS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=9ac3eac767a5c883316fb6e351c0dabd&oe=61C46E55" width="300px">
+    </div>
+            </div> 
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>Popular Post</h2>
+                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/s206x206/259141966_3083044658619299_1253893430272647825_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=aee45a&_nc_ohc=PWQ04ynmQ1MAX-KksGO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=86d9f69fcc0ab031ad360b8a9f39d2f2&oe=619FCF83">
+                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/s206x206/259141966_3083044658619299_1253893430272647825_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=aee45a&_nc_ohc=9kKwlWNirU8AX_IXS3J&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=f3b577514a48bfd87824dc2dab632c26&oe=61C83D83">
+                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p228x119/258993625_2467072980094834_5148231260802979073_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=aee45a&_nc_ohc=UDfmu6pqz9MAX_m5cRU&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=8587d1b7ee8e8b0615d7122165c15a7e&oe=61C784A3">
+            </div>
+</div>
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <div class="clearfix">
+                <img src="https://i.pinimg.com/564x/ce/22/ad/ce22ad42b43b2e54ccb3b3b0fe13906b.jpg" style="float: right" width="300px" height="230px"></div>
+                <h1>Choux Pastry</h1>
+                <p>Choux pastry, also called <b><i>pâte à choux</i></b> ("pot-ah-SHOO"), is made with flour, butter, eggs, and water, 
+                    although<br> it can sometimes be made using half water and half milk. 
+                    It is leavened with steam,
+                    rather than a chemical<br> leavening agent such as <b><i>baking soda or baking powder</i></b>, or a biological leavening agent such as yeast. </p>
+                <p>The dough is made on the <b><i>stovetop</i></b>, with the ingredients (except for the eggs) brought to a boil while stirring to form a ball. 
+                    This is pretty unusual, since most pastry doughs are mixed and then rolled or folded, but not cooked.</p>
+
+</body>
+</html>
